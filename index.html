@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Crumbsten Bakery – Roti & Kue Segar Setiap Hari, Surabaya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fff8ef;--surface:#ffffff;--text:#3a2418;--muted:#7a5e4d;--accent:#c2692b;--accent-2:#f3d9b8;--on-accent:#ffffff;--line:#ecd9c3;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--text);font-family:'Nunito',system-ui,sans-serif;line-height:1.6}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font-family:'Fraunces',Georgia,serif;font-weight:700;font-size:1.3rem}
+.logo span{color:var(--accent)}
+nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-weight:600;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--on-accent);padding:13px 26px;border-radius:999px;font-weight:700;text-decoration:none;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.alt{background:transparent;color:var(--text);border:2px solid var(--line)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center;padding:40px 0 60px}
+.tag{display:inline-block;background:var(--accent-2);color:var(--accent);padding:6px 14px;border-radius:999px;font-weight:700;font-size:.85rem}
+.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);margin:16px 0}
+.hero h1 em{color:var(--accent);font-style:normal}
+.hero p{color:var(--muted);font-size:1.1rem;max-width:480px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.art{background:var(--accent-2);border-radius:40% 60% 55% 45%/50% 45% 55% 50%;aspect-ratio:1;display:grid;place-items:center;font-size:clamp(6rem,22vw,10rem);box-shadow:0 20px 50px rgba(194,105,43,.25)}
+section{padding:54px 0}
+.head{text-align:center;margin-bottom:34px}
+.head h2{font-size:clamp(1.8rem,4vw,2.4rem)}
+.head p{color:var(--muted);margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px;text-align:center;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(194,105,43,.15)}
+.card .e{font-size:3.2rem}
+.card h3{font-size:1.2rem;margin:10px 0 6px}
+.card p{color:var(--muted);font-size:.95rem}
+.why{background:var(--accent-2)}
+.why .card{background:var(--bg)}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:34px}
+.visit h2{font-size:2rem;margin-bottom:12px}
+.visit p{color:var(--muted);margin-bottom:8px}
+.visit b{color:var(--text)}
+footer{text-align:center;color:var(--muted);padding:30px 0 40px;font-size:.9rem}
+@media(max-width:760px){.wrap{padding:0 14px}header{padding:12px 0}.logo{font-size:1.05rem}nav a{margin-left:10px;font-size:.75rem}.hero{gap:12px;padding:16px 0 30px}.tag{font-size:.65rem;padding:4px 10px}.hero p{font-size:.8rem}.btn{padding:9px 14px;font-size:.78rem}.cta{gap:8px;margin-top:14px}section{padding:30px 0}.head{margin-bottom:18px}.head p{font-size:.8rem}.grid{gap:10px}.card{padding:12px 8px;border-radius:16px}.card .e{font-size:2rem}.card h3{font-size:.85rem}.card p{font-size:.68rem}.visit{padding:18px;gap:12px;border-radius:20px}.visit h2{font-size:1.2rem}.visit p{font-size:.78rem}footer{font-size:.75rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="logo">Crumbsten<span>.</span></div>
+  <nav><a href="#menu">Menu</a><a href="#kenapa">Keunggulan</a><a href="#lokasi">Lokasi</a></nav>
+</header>
+
+<div class="hero">
+  <div>
+    <span class="tag">🔥 Dipanggang segar setiap hari</span>
+    <h1>Roti hangat, <em>bahagia</em> dimulai dari sini.</h1>
+    <p>Crumbsten Bakery menghadirkan roti, pastry, dan kue lembut dengan bahan pilihan. Cocok untuk sarapan, teman ngopi, sampai hantaran acara spesial.</p>
+    <div class="cta">
+      <a class="btn" href="#lokasi">Kunjungi Toko</a>
+      <a class="btn alt" href="#menu">Lihat Menu</a>
+    </div>
+  </div>
+  <div class="art" aria-hidden="true">🥐</div>
+</div>
+</div>
+
+<section id="menu">
+<div class="wrap">
+  <div class="head"><h2>Menu Favorit</h2><p>Pilihan yang paling sering dicari pelanggan kami</p></div>
+  <div class="grid">
+    <div class="card"><div class="e">🥐</div><h3>Croissant</h3><p>Berlapis, renyah di luar, lembut dan harum mentega di dalam.</p></div>
+    <div class="card"><div class="e">🍞</div><h3>Roti Tawar & Sourdough</h3><p>Tekstur empuk, pas untuk sarapan dan sandwich.</p></div>
+    <div class="card"><div class="e">🍰</div><h3>Cake & Tart</h3><p>Manis pas, lembut, cantik untuk ulang tahun dan perayaan.</p></div>
+    <div class="card"><div class="e">🍪</div><h3>Cookies</h3><p>Renyah dan penuh rasa, enak dibawa sebagai oleh-oleh.</p></div>
+    <div class="card"><div class="e">🍩</div><h3>Donat & Pastry</h3><p>Camilan manis dengan topping yang bikin nagih.</p></div>
+    <div class="card"><div class="e">🎂</div><h3>Pesanan Khusus</h3><p>Kue custom untuk ulang tahun, arisan, dan hampers.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="kenapa" class="why">
+<div class="wrap">
+  <div class="head"><h2>Kenapa Pilih Crumbsten?</h2></div>
+  <div class="grid">
+    <div class="card"><div class="e">🌾</div><h3>Bahan Berkualitas</h3><p>Tepung, mentega, dan cokelat pilihan untuk rasa terbaik.</p></div>
+    <div class="card"><div class="e">⏰</div><h3>Selalu Fresh</h3><p>Dipanggang setiap hari, bukan stok lama.</p></div>
+    <div class="card"><div class="e">💝</div><h3>Dibuat dengan Cinta</h3><p>Setiap roti dibuat teliti seperti untuk keluarga sendiri.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="lokasi">
+<div class="wrap">
+  <div class="visit">
+    <div>
+      <h2>Mampir ke Toko Kami 🥖</h2>
+      <p><b>📍 Alamat</b><br>Jl. Raya Graha Famili Utara M Blok M No.56, Pradahkalikendal, Dukuhpakis, Surabaya, Jawa Timur 60227</p>
+      <p>Wangi roti baru keluar oven sudah menunggu kamu.</p>
+      <div class="cta">
+        <a class="btn" href="https://maps.app.goo.gl/NGFG23XJWqYa1qJ2A" target="_blank" rel="noopener">Buka di Google Maps</a>
+        <a class="btn alt" href="https://wa.me/6289617791719?text=Halo%20Crumbsten%20Bakery%2C%20saya%20mau%20pesan" target="_blank" rel="noopener">Pesan via WhatsApp</a>
+      </div>
+    </div>
+    <div class="art" style="font-size:7rem" aria-hidden="true">🧁</div>
+  </div>
+</div>
+</section>
+
+<footer>© 2026 Crumbsten Bakery · Surabaya</footer>
+</body>
+</html>
